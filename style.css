@@ -5,7 +5,11 @@ div[class^="col"] {
 .row{
     border: 1px dashed red;
 }
+body{
+  background-image:;
+}
 h3{
+  color: black;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -50,7 +54,33 @@ h3{
   .btn-outline-info{
     background-color: none;
     color:rgb(0, 0, 0);
-    font-family: "Emilys Candy", serif;
-    font-weight: 400;
-    font-style: normal
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+  .btn-lg{
+    background-color: black;
+    color:#B44175;
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  .btn-lg :hover{
+    background-color: #B44175;
+    color: black;
+  }
+
+  .btn-sm{
+    background-color: black;
+    color:#B44175;
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   }
